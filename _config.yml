@@ -1,5 +1,24 @@
-title: Gustavo Martinez
+title: Gustavo Martinez - Científico de Datos
 logo: /assets/img/logo.png
-#description: text below image
+description: Científico de datos apasionado por extraer insights valiosos de grandes conjuntos de datos
 show_downloads: true
 theme: jekyll-theme-minimal
+
+# Configuración para navegación
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Configuración de posts
+collections:
+  posts:
+    output: true
+    permalink: /proyectos/:title/
+
+# Configuración de páginas
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
